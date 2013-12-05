@@ -1,0 +1,51 @@
+.poopPreloader{
+    display: none;
+}
+
+#poopGuy{
+    z-index: 9999;
+    opacity: 1;
+    width: 250px;
+    height: 400px;
+    display: none;
+    position: fixed;
+    background: no-repeat top left;
+}
+
+#poopGuy.walking{
+    background-image: url(http://warrantynowvoid.com/assets/img/template/poop_walking.gif);
+}
+
+.aPoop{
+    z-index: 3;
+    opacity: 1;
+    background: no-repeat top left;
+    background-image: url(http://warrantynowvoid.com/assets/img/template/poop_alone.png);
+    width: 60px;
+    height: 24px;
+    position: fixed;
+}
+
+
+/* retina displays (mac/ipad only) */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+
+    #poopGuy{
+        background-size: 250px 400px;
+    }
+
+    #poopGuy.walking{
+        background-image: url(http://warrantynowvoid.com/assets/img/template/poop_walking@2x.gif);
+    }
+
+    .poopPreloader{
+        background-image: url(http://warrantynowvoid.com/assets/img/template/poop_alone@2x.png);
+    }
+
+    .aPoop{
+        background: no-repeat top left;
+        background-image: url(http://warrantynowvoid.com/assets/img/template/poop_alone@2x.png);
+        background-size: 60px 24px;
+    }
+
+}
