@@ -13,7 +13,7 @@
 }
 
 #poopGuy.walking{
-    background-image: url(http://warrantynowvoid.com/assets/img/template/poop_walking.gif);
+    background-image: url(http://warrantynowvoid.com/assets/img/template/poop_walking_censored.gif);
 }
 
 .aPoop{
@@ -35,7 +35,7 @@
     }
 
     #poopGuy.walking{
-        background-image: url(http://warrantynowvoid.com/assets/img/template/poop_walking@2x.gif);
+        background-image: url(http://warrantynowvoid.com/assets/img/template/poop_walking_censored@2x.gif);
     }
 
     .poopPreloader{

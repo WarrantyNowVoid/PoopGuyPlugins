@@ -19,7 +19,7 @@ function startPooping(){
     }catch(err){}
 
     poopAnim = new Image();
-    poopAnim.src = 'http://warrantynowvoid.com/assets/img/template/poop_pooping' + (isRetina? '@2x' : '') + '.gif?lol=' + Math.random();
+    poopAnim.src = 'http://warrantynowvoid.com/assets/img/template/poop_pooping_censored' + (isRetina? '@2x' : '') + '.gif?lol=' + Math.random();
     if(!poopActive){
         poopActive = true;
         pooCounter++;
