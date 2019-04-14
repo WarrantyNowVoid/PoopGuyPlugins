@@ -5,7 +5,7 @@
   "short_name": "WNV PoopGuy",
   "author": "pope@WarrantyNowVoid",
   "description": "Bring Warranty Now Void's infamous PoopGuy with you wherever you go on the web.",
-  "homepage_url": "http://warrantynowvoid.com/post/0db6a",
+  "homepage_url": "https://warrantynowvoid.com/post/0db6a",
   "version": "1.1",
   "icons": { 
     "16": "icon16.png",
@@ -14,7 +14,7 @@
   },
 
   "permissions": [
-    "http://warrantynowvoid.com/",
+    "https://warrantynowvoid.com/",
     "activeTab"
   ],
 

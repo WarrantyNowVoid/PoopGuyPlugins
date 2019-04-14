@@ -8,8 +8,8 @@ var isRetina = Math.floor(window.devicePixelRatio) > 1;
 console.log('@2x support: ' + isRetina);
 
 $(document).ready(function(){
-    $("body").append('<div id="poopGuy"></div><audio id="pushit"><source src="http://warrantynowvoid.com/assets/mp3/bsg.mp3" type="audio/mpeg" /></audio>');
-    $("body").append('<img src="http://warrantynowvoid.com/assets/img/template/poop_alone' + (isRetina? '@2x' : '') + '.png" class="poopPreloader" />')
+    $("body").append('<div id="poopGuy"></div><audio id="pushit"><source src="https://warrantynowvoid.com/assets/mp3/bsg.mp3" type="audio/mpeg" /></audio>');
+    $("body").append('<img src="https://warrantynowvoid.com/assets/img/poopguy/poop_alone' + (isRetina? '@2x' : '') + '.png" class="poopPreloader" />')
 });
 
 function startPooping(){
@@ -19,7 +19,7 @@ function startPooping(){
     }catch(err){}
 
     poopAnim = new Image();
-    poopAnim.src = 'http://warrantynowvoid.com/assets/img/template/poop_pooping_censored' + (isRetina? '@2x' : '') + '.gif?lol=' + Math.random();
+    poopAnim.src = 'https://warrantynowvoid.com/assets/img/poopguy/poop_pooping_censored' + (isRetina? '@2x' : '') + '.gif?lol=' + Math.random();
     if(!poopActive){
         poopActive = true;
         pooCounter++;

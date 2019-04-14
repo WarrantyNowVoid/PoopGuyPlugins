@@ -13,14 +13,14 @@
 }
 
 #poopGuy.walking{
-    background-image: url(http://warrantynowvoid.com/assets/img/template/poop_walking_censored.gif);
+    background-image: url(https://warrantynowvoid.com/assets/img/poopguy/poop_walking_censored.gif);
 }
 
 .aPoop{
     z-index: 3;
     opacity: 1;
     background: no-repeat top left;
-    background-image: url(http://warrantynowvoid.com/assets/img/template/poop_alone.png);
+    background-image: url(https://warrantynowvoid.com/assets/img/poopguy/poop_alone.png);
     width: 60px;
     height: 24px;
     position: fixed;
@@ -35,16 +35,16 @@
     }
 
     #poopGuy.walking{
-        background-image: url(http://warrantynowvoid.com/assets/img/template/poop_walking_censored@2x.gif);
+        background-image: url(https://warrantynowvoid.com/assets/img/poopguy/poop_walking_censored@2x.gif);
     }
 
     .poopPreloader{
-        background-image: url(http://warrantynowvoid.com/assets/img/template/poop_alone@2x.png);
+        background-image: url(https://warrantynowvoid.com/assets/img/poopguy/poop_alone@2x.png);
     }
 
     .aPoop{
         background: no-repeat top left;
-        background-image: url(http://warrantynowvoid.com/assets/img/template/poop_alone@2x.png);
+        background-image: url(https://warrantynowvoid.com/assets/img/poopguy/poop_alone@2x.png);
         background-size: 60px 24px;
     }
 
